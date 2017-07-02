@@ -14,7 +14,7 @@ public class HelloController {
 	public ModelAndView helloWorld() {
 
 		ModelAndView model = new ModelAndView("HelloPage");
-		model.addObject("msg","hello world");
+		model.addObject("msg","hello worlddddd");
 
 		return model;
 	}
