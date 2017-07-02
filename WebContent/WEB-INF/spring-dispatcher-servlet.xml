@@ -11,7 +11,8 @@
         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 	
 
- <context:component-scan base-package="com.gontuseries.hellocontroller" />
+ <context:component-scan base-package="com.gontuseries.hellocontroller" /><!-- Using ANNOTATIN: if this line is 
+ inserted, then no need to write controller mapping names here -->
  <mvc:annotation-driven/>
  
  <bean id="viewResolver"
